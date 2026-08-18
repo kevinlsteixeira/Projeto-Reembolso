@@ -9,7 +9,7 @@ export function SignUp() {
     const [passwordConfirm, setPasswordConfirm] = useState("")
     const [isLoading, setIsLoading] = useState(false)
 
-    function onSubmit(e: React.FormElement) {
+    function onSubmit(e: React.FormEvent) {
         e.preventDefault()
 
         console.log(name, email, password, passwordConfirm)
