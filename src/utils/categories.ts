@@ -1,0 +1,31 @@
+import foodSvg from "../assets/food.svg"
+import accommodationSvg from "../assets/accommodation.svg"
+import transportSvg from "../assets/transport.svg"
+import servicesSvg from "../assets/services.svg"
+import othersSvg from "../assets/others.svg"
+
+export const CATEGORIES = {
+    food: {
+        name: "Alimentação",
+        icon: foodSvg,
+    },
+    accommodation: {
+        name: "Hospedagem",
+        icon: accommodationSvg,
+    },
+    transport: {
+        name: "Transporte",
+        icon: transportSvg,
+    },
+    services: {
+        name: "Serviços",
+        icon: servicesSvg,
+    },
+    others: {
+        name: "Outros",
+        icon: othersSvg,
+    },
+    
+}
+
+export const CATEGORIES_KEYS = Object.keys(CATEGORIES) as Array<keyof typeof CATEGORIES>
