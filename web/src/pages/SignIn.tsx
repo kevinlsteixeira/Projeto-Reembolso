@@ -1,5 +1,5 @@
 import { useActionState } from "react"
-import { email, z, ZodError } from "zod"
+import { z, ZodError } from "zod"
 import { AxiosError } from "axios"
 
 import { api } from "../services/api"
